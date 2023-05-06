@@ -1,0 +1,35 @@
+.card {
+    max-width: 18.9rem;
+    margin: 1rem 0.5rem;
+    border-radius: 8px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.card .content {
+    padding: 0.5rem 0.2rem;
+}
+
+.card .img img {
+    width: 5rem;
+    height: 5rem;
+    margin: 0.6rem 0.1rem;
+}
+
+.card p {
+    padding: 0.2rem 0.9rem;
+    text-align: center;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.why-us {
+    margin: 1rem 0.9rem;
+    color: var(--text-gray);
+    text-align: center;
+}

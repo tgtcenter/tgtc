@@ -1,0 +1,67 @@
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    width: 95vw;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner h1,
+.banner p {
+    font-weight: bold;
+}
+
+.banner .container {
+    flex: 1;
+    padding: 0 50px;
+    text-align: left;
+}
+
+.bannerIllustrator {
+    flex: 1;
+    text-align: right;
+}
+
+.bannerIllustrator img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner .container {
+        padding: 50px;
+    }
+
+    .bannerIllustrator {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .bannerIllustrator {
+        order: 2;
+        /* move the image below the title */
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .banner .container {
+        padding: 30px;
+    }
+}
