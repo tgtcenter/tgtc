@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import bannerImg from "../assets/Forms-bro.png";
-import "../components/css/StudentForm.css";
+import "../css/StudentForm.css";
 
 export default function StudentForm() {
   const [name, setName] = useState("");
