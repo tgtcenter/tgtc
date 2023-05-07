@@ -40,6 +40,11 @@ export default function Navbar() {
             Contact Us
           </a>
         </li>
+        <li className="navbar-item">
+          <a href="/admin" className="navbar-link">
+            Admin Login
+          </a>
+        </li>
       </ul>
     </nav>
   );

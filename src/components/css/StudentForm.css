@@ -8,7 +8,7 @@
 }
 
 img {
-    max-width: 30%;
+    max-width:40%;
     margin-bottom: 20px;
 }
 
@@ -47,4 +47,24 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #0057cb;
+}
+
+@media (max-width: 600px) {
+    .student-form {
+        margin-top: -20px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    form{
+        width: 100%;
+    }
+
+    .student-form h1 {
+        font-size: 1.5rem;
+    }
+    .student-form h1 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
 }

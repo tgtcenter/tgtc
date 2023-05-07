@@ -3,43 +3,28 @@ import bannerImg from "../assets/Forms-bro.png";
 import "../components/css/StudentForm.css";
 
 export default function StudentForm() {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
 
-
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Submit form logic goes here
-    console.log("Form submitted!");
   };
 
   return (
     <div className="student-form">
-    <h1>Register Now 👉</h1>
+      <h1>Register Now 👉</h1>
       <img src={bannerImg} alt="banner" />
       <form onSubmit={handleSubmit}>
-        <label htmlFor="firstName">First Name:</label>
+        <label htmlFor="name">Name:</label>
         <input
           type="text"
-          id="firstName"
-          name="firstName"
-          value={firstName}
-          onChange={(event) => setFirstName(event.target.value)}
+          id="name"
+          name="name"
+          value={name}
+          onChange={(event) => setName(event.target.value)}
           required
         />
-
-        <label htmlFor="lastName">Last Name:</label>
-        <input
-          type="text"
-          id="lastName"
-          name="lastName"
-          value={lastName}
-          onChange={(event) => setLastName(event.target.value)}
-          required
-        />
-
         <label htmlFor="email">Email:</label>
         <input
           type="email"
