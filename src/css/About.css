@@ -4,13 +4,13 @@
     padding: 40px 0;
 }
 
-h1 {
+.about-container h1 {
     font-size: 3rem;
     margin-bottom: 20px;
     text-align: center;
 }
 
-p {
+.about-container p {
     font-size: 1.5rem;
     line-height: 2;
     margin-bottom: 30px;
