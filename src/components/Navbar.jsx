@@ -26,12 +26,12 @@ export default function Navbar() {
           </a>
         </li>
         <li className="navbar-item">
-          <a href="/" className="navbar-link">
+          <a href="/services" className="navbar-link">
             Services
           </a>
         </li>
         <li className="navbar-item">
-          <a href="/" className="navbar-link">
+          <a href="/about" className="navbar-link">
             About
           </a>
         </li>
