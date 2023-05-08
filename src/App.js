@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import AdminLogin from "./pages/AdminLogin";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import ContactUs from "./pages/ContactUs";
 import Services from "./pages/Services";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/admin" element={<AdminLogin />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<ContactUs />} />
           <Route path="/services" element={<Services />} />
         </Routes>
       </BrowserRouter>
