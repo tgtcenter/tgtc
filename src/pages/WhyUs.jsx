@@ -2,6 +2,7 @@ import Card from "../components/Card";
 import React from "react";
 
 import { serviceData } from "../assets/data/serviceData";
+import { featureData } from "../assets/data/featureData";
 import FeatureCard from "../components/FeatureCard";
 
 export default function WhyUs() {
@@ -16,16 +17,17 @@ export default function WhyUs() {
           <Card
             imgUrl={service.imgUrl}
             title={service.title}
+            position={service.position}
             description={service.description}
           />
         ))}
       </div>
       <div className="service">
-        {serviceData.map((service) => (
+        {featureData.map((feature) => (
           <FeatureCard
-            image={service.imgUrl}
-            heading={service.title}
-            content={service.description}
+            image={feature.imgUrl}
+            heading={feature.title}
+            content={feature.description}
           />
         ))}
       </div>
