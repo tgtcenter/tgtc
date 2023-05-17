@@ -1,23 +1,38 @@
 export const featureData = [
   {
-    imgUrl:
-      "https://media.licdn.com/dms/image/C4D03AQFHdOPyUwlaPA/profile-displayphoto-shrink_800_800/0/1657380141232?e=2147483647&v=beta&t=7jblf5PFuOnu9Hxel-J2HF79gQEeebfsVyj8Ki_zthw",
-    title: "Aman Kumar",
+    imgUrl: "",
+    title: "Tally Liscensed Version",
     description:
-      "Excellent Tally GST training! Well-structured content, knowledgeable trainer, and great hands-on approach. Highly recommended!",
+      "At our training center, we offer the Tally Licensed Version. Students gain access to the full range of features and functionalities, allowing them to learn accounting, financial management, and inventory control efficiently.",
   },
   {
-    imgUrl:
-      "https://pbs.twimg.com/profile_images/1459169792766930944/usbCjTKd_400x400.jpg",
-    title: "Kaushal Kishore",
+    imgUrl: "",
+    title: "Real Data Experience",
     description:
-      "Highly impressed with the Tally GST training! Top-notch course content and expert trainer. I feel confident and ready to apply my new skills. Thank you!",
+      "Using real data provides a unique opportunity for students to apply their theoretical knowledge to practical situations. They learn how to navigate through actual business datasets, analyze information, identify patterns, and make informed decisions. This immersive learning approach fosters a deeper understanding of the subject matter and helps students develop critical thinking and problem-solving skills.",
   },
   {
-    imgUrl:
-      "https://scontent.fpat3-1.fna.fbcdn.net/v/t1.18169-9/16602833_654645621405843_979536219294694776_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=9rryZs7TNm8AX_0glPn&_nc_ht=scontent.fpat3-1.fna&oh=00_AfDpwcRmzTNIJ5agTmF5a8YjHsiaxt_-c-AeIVi3s0vtmg&oe=647E7B7E",
-    title: "Dheer Malhotra",
+    imgUrl: "",
+    title: "We provide GST Id password",
     description:
-      "Outstanding Tally GST training program! The trainer was fantastic, the course was well-designed and easy to follow, and the practical exercises were very helpful. I would definitely recommend this training to others.",
+      "we provide access to GST ID and passwords to enhance students' knowledge and understanding of the Goods and Services Tax (GST) system. By having access to a GST ID, students can explore the functionalities of the GST portal firsthand and gain practical experience in managing GST-related tasks.",
+  },
+  {
+    imgUrl: "",
+    title: "Bank recancelation of company",
+    description:
+      "we provide access to GST ID and passwords to enhance students' knowledge and understanding of the Goods and Services Tax (GST) system. By having access to a GST ID, students can explore the functionalities of the GST portal firsthand and gain practical experience in managing GST-related tasks.",
+  },
+  {
+    imgUrl: "",
+    title: "Preparation of BALANCE SHEET",
+    description:
+      "we provide access to GST ID and passwords to enhance students' knowledge and understanding of the Goods and Services Tax (GST) system. By having access to a GST ID, students can explore the functionalities of the GST portal firsthand and gain practical experience in managing GST-related tasks.",
+  },
+  {
+    imgUrl: "",
+    title: "TDS GST ITR filing",
+    description:
+      "By allowing students to practice TDS, GST, and ITR filing, we aim to enhance their skills and prepare them for real-world scenarios. This practical exposure empowers them to handle tax-related matters confidently and effectively in their professional careers.",
   },
 ];

@@ -25,7 +25,6 @@ export default function WhyUs() {
       <div className="service">
         {featureData.map((feature) => (
           <FeatureCard
-            image={feature.imgUrl}
             heading={feature.title}
             content={feature.description}
           />
