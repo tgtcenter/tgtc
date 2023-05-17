@@ -7,15 +7,9 @@ function Home() {
   return (
     <div>
       <Banner />
-
       <div className="home-container"></div>
-      <hr />
       <WhyUs />
-      {/* <FeatureCard/> */}
-      <hr />
       <StudentForm />
-      <hr />
-      <br />
     </div>
   );
 }
