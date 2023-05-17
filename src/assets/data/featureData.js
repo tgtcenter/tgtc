@@ -12,14 +12,13 @@ export const featureData = [
       "Using real data provides a unique opportunity for students to apply their theoretical knowledge to practical situations. They learn how to navigate through actual business datasets, analyze information, identify patterns, and make informed decisions. This immersive learning approach fosters a deeper understanding of the subject matter and helps students develop critical thinking and problem-solving skills.",
   },
   {
-    imgUrl:
-      "https://img.freepik.com/free-vector/login-concept-illustration_114360-739.jpg?w=2000",
+    imgUrl: "https://cdn-icons-png.flaticon.com/512/2091/2091363.png",
     title: "We provide GST Id password",
     description:
       "we provide access to GST ID and passwords to enhance students' knowledge and understanding of the Goods and Services Tax (GST) system. By having access to a GST ID, students can explore the functionalities of the GST portal firsthand and gain practical experience in managing GST-related tasks.",
   },
   {
-    imgUrl: "https://cdn-icons-png.flaticon.com/512/2419/2419636.png",
+    imgUrl: "https://cdn-icons-png.flaticon.com/512/2091/2091363.png",
     title: "Bank recancilation of company",
     description:
       "we provide access to GST ID and passwords to enhance students' knowledge and understanding of the Goods and Services Tax (GST) system. By having access to a GST ID, students can explore the functionalities of the GST portal firsthand and gain practical experience in managing GST-related tasks.",
